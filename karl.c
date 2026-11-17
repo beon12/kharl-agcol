@@ -20,4 +20,3 @@ void display_banner() {
 int calculate_fare(int distance) {
     return distance <= 4 ? 13 : 13 + (distance - 4) * 2;
 }
-// init
